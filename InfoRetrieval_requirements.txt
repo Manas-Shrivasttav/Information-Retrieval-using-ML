@@ -1,0 +1,35 @@
+# =============================================================================
+# INFORMATION RETRIEVAL USING MACHINE LEARNING
+# Requirements File
+# =============================================================================
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Python version: 3.9+ recommended
+#
+# Additional setup required:
+#   1. spaCy English model:
+#      python -m spacy download en_core_web_sm
+#
+#   2. LDA Mallet (Java toolkit — required for topic modelling):
+#      Download from: http://mallet.cs.umass.edu/
+#      Requires Java 8+: https://www.java.com/en/download/
+#      Update MALLET_PATH in the script after installation
+# =============================================================================
+
+# --- Data Handling ---
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0          # For reading/writing Excel files
+
+# --- NLP & Topic Modelling ---
+gensim>=4.2.0
+nltk>=3.7
+spacy>=3.4.0
+
+# --- Sentiment Analysis ---
+vaderSentiment>=3.3.2
+
+# --- Visualisation ---
+matplotlib>=3.6.0
+pyldavis>=3.4.0
